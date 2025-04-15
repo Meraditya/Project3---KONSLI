@@ -1,4 +1,10 @@
-<x-app-layout>
+@extends('layout')
+@section('title', 'Home')
+@section('content-title', 'Home')
+
+
+
+{{-- <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
             {{ __('Dashboard') }}
@@ -14,4 +20,4 @@
             </div>
         </div>
     </div>
-</x-app-layout>
+</x-app-layout> --}}
